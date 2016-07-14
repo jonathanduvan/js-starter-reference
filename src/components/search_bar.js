@@ -12,7 +12,6 @@ class SearchBar extends Component {
     console.log(event.target.value);
     this.setState({ searchterm: event.target.value });
     this.props.onSearchChange(event.target.value);
-    this.props.onSearchChange(this.state.searchterm);
   }
   render() {
     return (
