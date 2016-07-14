@@ -23,9 +23,18 @@
           0,
           'DebuggerStatement'
         ],
-        no-debugger: "warn"
+        no-debugger: "warn",
+        react/jsx-uses-react: 2,
+        react/jsx-uses-vars: 2,
+        react/react-in-jsx-scope: 2,
+        react/prop-types: 0,
+        react/jsx-first-prop-new-line: 0
     },
+    plugins: [
+        "react"
+    ],
     ecmaFeatures: {
+      jsx: true,
         modules: true
     }
 }
