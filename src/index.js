@@ -7,7 +7,6 @@ import VideoDetail from './components/video_detail';
 import debounce from 'lodash.debounce';
 import './style.scss';
 
-
 class App extends Component {
   constructor(props) {
     super(props);
